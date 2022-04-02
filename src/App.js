@@ -1,9 +1,10 @@
 import './App.css';
+import Header from "./components/ui/Header.js"
 
 function App() {
   return (
     <div className="container">
-		  Starting point
+		  <Header />
     </div>
   );
 }
